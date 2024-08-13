@@ -6,3 +6,5 @@ function getResponseFromAPI(apiEndPoint){
         }
     })
 }
+
+export default getResponseFromAPI;
