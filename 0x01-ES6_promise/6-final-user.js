@@ -8,12 +8,18 @@ export default function handleProfileSignup(firstName, lastName, filename) {
 
     return Promise.allSettled([user, photo]).then((reponse) => {
         let result = [];
-        reponse.forEach((value) => {
-            if (value.status === 'fulfilled') {
-                result.push(value.value);
-            }else{
-                result.push(value.reason);
+        for (const res of responses) {
+            if (res.status === 'fulfilled') {
+              results.push({
+                status: res.status,
+                value: res.value,
+              });
+            } else {
+              results.push({
+                status: res.status,
+                value: `Error: ${res.reason.message}`,
+              });
             }
-        })
+          }
     })
 }
