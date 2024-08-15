@@ -1,4 +1,4 @@
-export default function handleResponseFromAPI(){
+export default function handleResponseFromAPI(promise){
     return new Promise((resolve, reject) =>{
         resolve(
             {
