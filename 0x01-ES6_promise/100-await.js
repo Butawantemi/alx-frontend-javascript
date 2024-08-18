@@ -14,6 +14,5 @@ export default async function asyncUploadUser(){
             user: null
         }
     } 
-    result.push(value);
-   return result;
+   return result ;
 }
