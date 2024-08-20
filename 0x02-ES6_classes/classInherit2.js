@@ -8,5 +8,7 @@ class Cat {
 }
 
 class Lion extends Cat {
-    
+   Speak(){
+    super.Speak();
+   } 
 }
