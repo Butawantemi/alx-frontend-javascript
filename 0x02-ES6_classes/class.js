@@ -1,12 +1,6 @@
-class Name {
-    constructor(name){
-        this.name = name;
-
+class Rectangle {
+    constructor(height, width) {
+      this.height = height;
+      this.width = width;
     }
-    sayName (){
-        console.log(this.name);
-    }
-}
-
-Name = new Name('John');
-sayName();
+  }
