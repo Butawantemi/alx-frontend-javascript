@@ -1,3 +1,4 @@
+//Decrilaring a class Cat
 class Cat {
     constructor(name){
         this.name = name;
@@ -7,14 +8,18 @@ class Cat {
     }
 }
 
+//Extending the Cat class
 class Lion extends Cat {
    Speak(){
     super.Speak();
    } 
 }
 
+
+//Creating instances of the classes
 let cat = new Cat('Cat');
 let lion = new Lion('Lion');
 
+//calling the Speak method
 cat.Speak();
 lion.Speak();
