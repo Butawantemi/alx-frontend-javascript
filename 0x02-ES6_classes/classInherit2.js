@@ -12,3 +12,5 @@ class Lion extends Cat {
     super.Speak();
    } 
 }
+
+let cat = new Cat('Cat');
