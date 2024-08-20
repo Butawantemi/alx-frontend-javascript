@@ -14,3 +14,4 @@ class Lion extends Cat {
 }
 
 let cat = new Cat('Cat');
+let lion = new Lion('Lion');
