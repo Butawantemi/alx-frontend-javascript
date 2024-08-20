@@ -20,3 +20,6 @@ class Rectangle {
         yield this.width;
     }
 }
+
+let square = new Rectangle(10, 10);
+console.log(square.getArea());
