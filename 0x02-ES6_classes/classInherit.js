@@ -18,3 +18,7 @@ class Mouse extends Animal {
         console.log(this.name + ' makes a squeak.');
     }
 }
+
+let animal =  new Animal('Animal');
+let mouse = new Mouse('Mouse');
+
