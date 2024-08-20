@@ -23,3 +23,4 @@ class Rectangle {
 
 let square = new Rectangle(10, 10);
 console.log(square.getArea());
+console.log([...square.getSides()]);
