@@ -13,3 +13,11 @@ class Rectangle {
       this.width = width;
     }
   }
+
+  //Named class expression
+  let Rectangle =  class Rectangle1 {
+    constructor(height, width) {
+      this.height = height;
+      this.width = width;
+    }
+  }
