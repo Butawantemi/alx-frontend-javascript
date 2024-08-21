@@ -3,6 +3,7 @@ class Cat {
     constructor(name){
         this.name = name;
     }
+    //method
     Speak(){
         console.log(this.name + ' makes a noise.');
     }
