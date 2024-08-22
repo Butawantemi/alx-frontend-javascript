@@ -8,7 +8,7 @@ export default class HolbertonCourse {
       throw new Error("Invalid type");
     }
     this._name = name;
-    this._length = lenght;
+    this._length = length;
     this._students = students;
   }
 
