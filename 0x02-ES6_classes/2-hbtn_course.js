@@ -1,4 +1,5 @@
 export default class HolbertonCourse {
+  // Constructor
   constructor(name, length, students) {
     if (
       typeof name !== "string" ||
@@ -12,6 +13,7 @@ export default class HolbertonCourse {
     this._students = students;
   }
 
+  // Getters and Setters for name
   get name() {
     return this._name;
   }
@@ -23,6 +25,7 @@ export default class HolbertonCourse {
     this._name = value;
   }
 
+  // Getters and Setters for length
   get length() {
     return this._length;
   }
@@ -33,7 +36,7 @@ export default class HolbertonCourse {
     }
     this._length = value;
   }
-
+  // Getters and Setters for students
   get students() {
     return this._students;
   }
