@@ -22,4 +22,8 @@ export default class Airport {
   set code(value) {
     this._code = value;
   }
+
+  toString() {
+    return `[object ${this._name} - ${this._code}]`;
+  }
 }
