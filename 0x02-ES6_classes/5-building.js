@@ -1,8 +1,6 @@
 export default class Building {
   constructor(sqft) {
-    if (typeof sqft !== "number") {
-      throw new Error("Sqft must be a number");
-    }
+    if (typeof sqft !== "number") throw new Error();
     this._sqft = sqft;
     this.evacuationWarningMessage();
   }
@@ -12,9 +10,7 @@ export default class Building {
   }
 
   set sqft(value) {
-    if (typeof value !== "number") {
-      throw new Error("Sqft must be a number");
-    }
+    this._sqft = value;
   }
 
   evacuationWarningMessage() {
