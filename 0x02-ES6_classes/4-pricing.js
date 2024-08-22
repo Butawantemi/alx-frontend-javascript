@@ -1,4 +1,4 @@
-import Currency from "./3-currency";
+import Currency from './3-currency.js';
 
 export default class pricing {
   constructor(amount, currency) {
@@ -29,5 +29,16 @@ export default class pricing {
       throw new Error("Currency must be a Currency");
     }
     this._currency = value;
+  }
+
+  displayFullPrice() {
+    return `${this._amount} ${this._currency.displayFullCurrency()}`;
+  }
+
+  static convertPrice(amout, conversionRate) {
+    if (typeof amout !== "number" || typeof conversionRate !== "number") {
+      throw new Error("Amount and convertionRate must be numbers");
+    }
+    return amout * conversionRate;
   }
 }
