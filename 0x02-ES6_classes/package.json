@@ -1,0 +1,13 @@
+{
+  "name": "0x02-es6_classes",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "0x02. ES6 classes OOP JavaScript ES6  Weight: 1  Project over - took place from Apr 11, 2024 6:00 AM to Apr 12, 2024 6:00 AM  An auto review will be launched at the deadline",
+  "main": "0-classroom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
