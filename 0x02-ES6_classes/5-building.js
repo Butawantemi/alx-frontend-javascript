@@ -6,13 +6,13 @@ export default class Building {
     this._sqft = sqft;
   }
 
-  get sqft(){
+  get sqft() {
     return this._sqft;
   }
 
-  set sqft(value){
+  set sqft(value) {
     if (typeof value !== "number") {
-        throw new Error("Sqft must be a number");
+      throw new Error("Sqft must be a number");
     }
   }
 }
