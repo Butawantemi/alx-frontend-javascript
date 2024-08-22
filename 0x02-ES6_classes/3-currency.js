@@ -1,4 +1,5 @@
 export default class Currency {
+  // Constructor
   constructor(code, name) {
     if (typeof code !== "string" || typeof name !== "string") {
       throw new Error("Code and name must be strings");
@@ -8,6 +9,7 @@ export default class Currency {
     this._name = name;
   }
 
+  // Getters and Setters for code
   get code() {
     return this._code;
   }
@@ -18,7 +20,7 @@ export default class Currency {
     }
     this._code = value;
   }
-
+  // Getters and Setters for name
   get name() {
     return this._name;
   }
