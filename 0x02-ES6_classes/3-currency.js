@@ -19,13 +19,13 @@ export default class Currency {
     this._code = value;
   }
 
-   get name(){
+  get name() {
     return this._name;
-   }
+  }
 
-   set name(value){
-    if (typeof value !== "string"){
-        throw new Error("Name must be a string")
+  set name(value) {
+    if (typeof value !== "string") {
+      throw new Error("Name must be a string");
     }
-   }
+  }
 }
