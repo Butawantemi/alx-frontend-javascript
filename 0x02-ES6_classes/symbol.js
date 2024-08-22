@@ -1,9 +1,12 @@
-const sym = Symbol('');
-const nameSymbol = Symbol('javascript');
+const userType = Symbol('userType');
+const Administrator = Symbol('Administrator');
+const Guest = Symbol('Guest');
 
+const currectUser = {
+    [userType]: Administrator,
+    id: 1,
+    name: 'Japhet'
+}
 
-sym === nameSymbol;
-typeof sym;
-
-console.log(nameSymbol);
-console.log(nameSymbol.description)
+console.log(currectUser);
+console.log(JSON.stringify(currectUser));
