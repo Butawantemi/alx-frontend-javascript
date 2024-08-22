@@ -1,10 +1,9 @@
 export default class Airport {
-    constructor(name, code){
-        if (typeof name !== "string" || typeof code !== "string") {
-            throw new Error("Code and name must be strings");
-        }
-        this._name = name;
-        this._code = code;
+  constructor(name, code) {
+    if (typeof name !== "string" || typeof code !== "string") {
+      throw new Error("Code and name must be strings");
     }
-
+    this._name = name;
+    this._code = code;
+  }
 }
