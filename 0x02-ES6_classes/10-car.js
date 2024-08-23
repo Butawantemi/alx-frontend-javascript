@@ -28,7 +28,13 @@ export default class Car {
     this._color = value;
   }
 
+  [Symbol.toString](hint){
+    if (hint === 'string') {
+        return `Car: ${this._brand} ${this._motor} ${this._color}`;
+    }
+  }
+
   cloneCar() {
-    return new Car(this.this._brand, this._motor, this._color);
+    return new Car(this.brand, this.motor, this.color);
   }
 }
