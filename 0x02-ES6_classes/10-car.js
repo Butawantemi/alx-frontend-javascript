@@ -28,13 +28,13 @@ export default class Car {
     this._color = value;
   }
 
-  [Symbol.toString](hint){
+  [Symbol.toPrimitive](hint){
     if (hint === 'string') {
         return `Car: ${this._brand} ${this._motor} ${this._color}`;
     }
   }
 
   cloneCar() {
-    return new Car(this.brand, this.motor, this.color);
+    return new this.constructor(this._brand, this._motor, this._color);
   }
 }
