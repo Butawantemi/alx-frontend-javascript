@@ -1,5 +1,5 @@
 0x03. ES6 data manipulation
-JavaScript
+JavaScrip
 ES6
  Weight: 1
  Project over - took place from Apr 15, 2024 6:00 AM to Apr 17, 2024 6:00 AM
