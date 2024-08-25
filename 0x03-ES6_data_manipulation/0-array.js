@@ -4,5 +4,5 @@ const fruit = ['manzana', 'banana', 'pera', 'uva', 'sandia'];
 
 // loop through the array and print all the elements
 fruit.forEach((item, index) => {
-    console.log(`Index: ${index} - Item: ${item}`);
+  console.log(`Index: ${index} - Item: ${item}`);
 });
