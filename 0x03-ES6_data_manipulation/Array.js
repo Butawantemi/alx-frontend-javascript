@@ -1,4 +1,4 @@
 let fruit = [];
 
 fruit[5] = 'Mango';
-console.log(fruit.length);
+console.log(Object.keys(fruit));
