@@ -1,6 +1,6 @@
 const likeArray = {
-  1: 'a',
-  2: 'b',
+  0: 'a',
+  1: 'b',
   length: 2,
 };
 
