@@ -11,3 +11,7 @@ console.log(fruit2.length);
 // Create an array using string pototype split method.
 const fruit3 = 'apple, banana, pear'.split(', ');
 console.log(fruit3.length);
+
+// Change an array to string using join method.
+const toString = fruit3.join(', ');
+console.log(toString);
