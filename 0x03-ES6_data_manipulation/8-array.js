@@ -6,6 +6,6 @@ const deleteCount = 2;
 // Remove maltiple elements from beginning of an array.
 const removedElements = city.splice(start, deleteCount);
 
-// Output
+// Output the array and the removed elemnts.
 console.log(city);
 console.log(removedElements);
