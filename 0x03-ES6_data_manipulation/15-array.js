@@ -9,3 +9,8 @@ const copyBrands2 = brands.slice();
 
 // Copy an array using the Array.from method.
 const copyBrands3 = Array.from(brands);
+
+// Output
+console.log(copyBrands);
+console.log(copyBrands2);
+console.log(copyBrands3);
