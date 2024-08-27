@@ -17,3 +17,4 @@ const copyBrands4 = JSON.parse(JSON.stringify(brands));
 console.log(copyBrands);
 console.log(copyBrands2);
 console.log(copyBrands3);
+console.log(copyBrands4);
