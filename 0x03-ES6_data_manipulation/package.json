@@ -1,0 +1,13 @@
+{
+  "name": "0x03-es6_data_manipulation",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "0x03. ES6 data manipulation JavaScript ES6  Weight: 1  Project over - took place from Apr 15, 2024 6:00 AM to Apr 17, 2024 6:00 AM  An auto review will be launched at the deadline",
+  "main": "0-get_list_students.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
