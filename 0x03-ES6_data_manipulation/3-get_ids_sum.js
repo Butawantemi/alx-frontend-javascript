@@ -1,6 +1,6 @@
-export default function getStudentIdsSum(getListStudentIds) {
-  if (!Array.isArray(getListStudentIds)) {
+export default function getStudentIdsSum(studentsIds) {
+  if (!Array.isArray(studentsIds)) {
     return [];
   }
-  return getListStudentIds.reduce((accumulator, currentValue) => accumulator + currentValue);
+  return studentsIds.reduce((sum, student) => sum + student.id, 0);
 }
