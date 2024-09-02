@@ -9,5 +9,5 @@ if (buffer.byteLength === 16) {
 const Int32View = new Int32Array(buffer);
 
 for (let i = 0; i < Int32View.length; i++) {
-  Int32View[i] = i * 2;
+  console.log(Int32View[i] = i * 2);
 }
