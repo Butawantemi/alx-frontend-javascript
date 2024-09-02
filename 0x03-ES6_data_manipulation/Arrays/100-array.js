@@ -5,3 +5,9 @@ if (buffer.byteLength === 16) {
 } else {
   console.log('Failed to create ArrayBuffer');
 }
+
+const Int32View = new Int32Array(buffer);
+
+for (let i = 0; i < Int32View.length; i++) {
+  Int32View[i] = i * 2;
+}
