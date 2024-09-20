@@ -38,3 +38,12 @@ console.log(myArr);
 const mySet2 = new Set([1, 2, 3, 4]);
 console.log([mySet2.size]);
 console.log([...mySet2]);
+
+// intersect can be simulated via
+const intersection = new Set([...mySet1].filter((x) => mySet2.has(x)));
+
+// difference can be simulated via
+const difference = new Set([...mySet1].filter((x) => !mySet2.has(x)));
+
+console.log(`intersection: ${intersection}`);
+console.log(`difference: ${difference}`);
