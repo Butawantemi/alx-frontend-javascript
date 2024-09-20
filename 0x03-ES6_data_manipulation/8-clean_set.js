@@ -1,1 +1,3 @@
-export default cleanSet(set, startString) {}
+export default cleanSet(set, startString) {
+    
+}
