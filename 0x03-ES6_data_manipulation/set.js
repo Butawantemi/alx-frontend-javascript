@@ -28,3 +28,8 @@ console.log(mySet1);
 for (const item of mySet1.values()) {
   console.log(item);
 }
+
+// Conveert set to array
+const myArr = Array.from(mySet1);
+
+console.log(myArr);
