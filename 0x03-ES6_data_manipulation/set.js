@@ -18,4 +18,9 @@ mySet1.has('Some Text'.toLowerCase());
 mySet1.has(o);
 
 // check size of the set
-mySet1.size;
+mySet1.size();
+
+// Delete values from the set.
+mySet1.delete(5);
+
+console.log(mySet1);
