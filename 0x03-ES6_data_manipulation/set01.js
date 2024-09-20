@@ -53,6 +53,7 @@ function difference(setA, setB) {
 // Set data Structure.
 const set1 = new Set([1, 2, 3, 4, 5]);
 const set2 = new Set([1, 2, 3]);
+const numbers = [2, 13, 4, 4, 2, 13, 13, 4, 4, 5, 5, 6, 6, 7, 5, 32, 13, 4, 5];
 
 // output
 console.log(isSuperset(set1, set2));
@@ -60,3 +61,4 @@ console.log(union(set1, set2));
 console.log(intersetion(set1, set2));
 console.log(symmetricDifference(set1, set2));
 console.log(difference(set1, set2));
+console.log([...new Set(numbers)]);
