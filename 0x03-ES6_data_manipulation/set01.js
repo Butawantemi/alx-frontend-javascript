@@ -9,7 +9,7 @@ function isSuperset(set, subset) {
 }
 
 // Union of two Sets
-function union (setA, setB) {
+function union(setA, setB) {
   const _union = new Set(setA);
   for (const elem of setB) {
     _union.add(elem);
@@ -23,3 +23,4 @@ const set2 = new Set([1, 2, 3]);
 
 // output
 console.log(isSuperset(set1, set2));
+console.log(union(set1.set2));
