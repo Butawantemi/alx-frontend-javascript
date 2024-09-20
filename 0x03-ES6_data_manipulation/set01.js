@@ -41,6 +41,15 @@ function symmetricDifference(setA, setB) {
   return _difference;
 }
 
+// difference of two sets.
+function difference(setA, setB) {
+  const _difference = new Set(setA);
+  for (const elem of setB) {
+    _difference.delete(elem);
+  }
+  return _difference;
+}
+
 // Set data Structure.
 const set1 = new Set([1, 2, 3, 4, 5]);
 const set2 = new Set([1, 2, 3]);
