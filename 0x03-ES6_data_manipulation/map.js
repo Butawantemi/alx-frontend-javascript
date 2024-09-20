@@ -8,4 +8,4 @@ contacts.set('Hilary', { phone: '617-555-4321', address: '321 S 2nd St' });
 console.log(contacts);
 
 // Get Jessie's contact.
-contacts.get('Jessie');
+console.log(contacts.get('Jessie'));
