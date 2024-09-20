@@ -45,5 +45,5 @@ const intersection = new Set([...mySet1].filter((x) => mySet2.has(x)));
 // difference can be simulated via
 const difference = new Set([...mySet1].filter((x) => !mySet2.has(x)));
 
-console.log(`intersection: ${intersection}`);
-console.log(`difference: ${difference}`);
+console.log(intersection);
+console.log(difference);
