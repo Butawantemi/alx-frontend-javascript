@@ -9,3 +9,8 @@ console.log(contacts);
 
 // Get Jessie's contact.
 console.log(contacts.get('Jessie'));
+
+// Delete Hilary's contact.
+contacts.delete('Hilary');
+
+console.log(contacts.size);
