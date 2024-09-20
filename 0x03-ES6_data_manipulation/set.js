@@ -16,3 +16,6 @@ mySet1.has(5);
 mySet1.has(Math.sqrt(25));
 mySet1.has('Some Text'.toLowerCase());
 mySet1.has(o);
+
+// check size of the set
+mySet1.size;
