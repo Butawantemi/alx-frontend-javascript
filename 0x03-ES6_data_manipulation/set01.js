@@ -49,3 +49,4 @@ const set2 = new Set([1, 2, 3]);
 console.log(isSuperset(set1, set2));
 console.log(union(set1, set2));
 console.log(intersetion(set1, set2));
+console.log(symmetricDifference(set1, set2));
