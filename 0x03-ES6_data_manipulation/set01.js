@@ -8,7 +8,9 @@ function isSuperset(set, subset) {
   return true;
 }
 
+// Set data Structure.
 const set1 = new Set([1, 2, 3, 4, 5]);
 const set2 = new Set([1, 2, 3]);
 
+// output
 console.log(isSuperset(set1, set2));
