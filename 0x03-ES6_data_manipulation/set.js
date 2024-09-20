@@ -47,3 +47,8 @@ const difference = new Set([...mySet1].filter((x) => !mySet2.has(x)));
 
 console.log(intersection);
 console.log(difference);
+
+// iterate using forEach
+mySet2.forEach((value) => {
+  console.log(value);
+});
