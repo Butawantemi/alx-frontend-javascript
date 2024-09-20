@@ -1,5 +1,5 @@
 // Check if a set is a subset of another set.
-function isSuperset (set, subset) {
+function isSuperset(set, subset) {
   for (const elem of subset) {
     if (!set.has(elem)) {
       return false;
@@ -11,4 +11,4 @@ function isSuperset (set, subset) {
 const set1 = new Set([1, 2, 3, 4, 5]);
 const set2 = new Set([1, 2, 3]);
 
-isSuperset(set1, set2);
+console.log(isSuperset(set1, set2));
