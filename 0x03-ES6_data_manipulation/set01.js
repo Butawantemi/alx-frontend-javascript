@@ -28,6 +28,19 @@ function intersetion(setA, setB) {
   return _intersection;
 }
 
+// symmetric difference of two sets.
+function symmetricDifference(setA, setB) {
+  const _difference = new Set(setA);
+  for (const elem of setB) {
+    if (_difference.has(elem)) {
+      _difference.delete(elem);
+    } else {
+      _difference.add(elem);
+    }
+  }
+  return _difference;
+}
+
 // Set data Structure.
 const set1 = new Set([1, 2, 3, 4, 5]);
 const set2 = new Set([1, 2, 3]);
