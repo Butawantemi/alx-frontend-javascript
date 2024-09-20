@@ -25,6 +25,6 @@ mySet1.delete(5);
 
 console.log(mySet1);
 
-for (const item of mySet1) {
+for (const item of mySet1.values()) {
   console.log(item);
 }
