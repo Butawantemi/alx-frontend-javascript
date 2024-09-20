@@ -1,4 +1,4 @@
-// Check if a set is 
+// Check if a set is a subset of another set.
 function isSuperset (set, subset) {
   for (const elem of subset) {
     if (!set.has(elem)) {
