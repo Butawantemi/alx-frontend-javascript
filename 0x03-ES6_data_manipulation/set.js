@@ -33,3 +33,8 @@ for (const item of mySet1.values()) {
 const myArr = Array.from(mySet1);
 
 console.log(myArr);
+
+// convert between set and array
+const mySet2 = new Set([1, 2, 3, 4]);
+console.log([mySet2.size]);
+console.log([...mySet2]);
