@@ -49,6 +49,16 @@ function welcomePeople(x: string[] | string) {
     }
 }
 
+function doSomething(value: string | null) {
+    if (value === null) {
+        // do nothing
+    } else {
+        console.log('Value is:  ' + value);
+    }
+}
+
+console.log(doSomething(' '));
+
 welcomePeople(['Alice', 'Bob', 'Charlie']);
 welcomePeople('Japhet');
 printCoord({x: 3});

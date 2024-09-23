@@ -25,6 +25,25 @@ function printCoord(pt) {
     }
     console.log('The coordinate is: x = ' + pt.x + ', y =' + pt.y);
 }
+function welcomePeople(x) {
+    if (Array.isArray(x)) {
+        console.log('Hello, ' + x.join(' and '));
+    }
+    else {
+        console.log('Welcome lone traveler  ' + x);
+    }
+}
+function doSomething(value) {
+    if (value === null) {
+        // do nothing
+    }
+    else {
+        console.log('Value is:  ' + value);
+    }
+}
+console.log(doSomething('Japhet'));
+welcomePeople(['Alice', 'Bob', 'Charlie']);
+welcomePeople('Japhet');
 printCoord({ x: 3 });
 printCoord({ x: 3, y: 7 });
 var user = new UserAccount("Japhet", 3);
