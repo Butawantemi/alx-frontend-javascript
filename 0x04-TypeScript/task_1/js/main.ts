@@ -14,3 +14,17 @@ interface Directies extends teacher {
 function printTeacher(firstName: string, lastName: string) {
     return `${firstName.charAt(0)}. ${lastName}`;
 }
+
+class studentClass {
+    firstName: string;
+    lastName: string;
+
+    constructor(firstName: string, lastName: string) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    workOnHoneWork(){
+        return 'Currently working';
+    }
+}
