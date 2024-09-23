@@ -11,10 +11,17 @@ interface Directies extends teacher {
     numberOfReports: number;
 }
 
-function printTeacher(firstName: string, lastName: string) {
+interface printTeacherFunction {
+    (firstName: string, lastName: string): string;
+}
+
+const printTeacher: printTeacherFunction = (firstName, lastName) => {
     return `${firstName.charAt(0)}. ${lastName}`;
 }
 
+interface StudentConstructor {
+    new (firstName: string, lastName: string): studentClass;
+}
 class studentClass {
     firstName: string;
     lastName: string;
@@ -32,5 +39,5 @@ class studentClass {
         return this.firstName;
     }
 
-    
+
 }
