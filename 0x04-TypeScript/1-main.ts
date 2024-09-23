@@ -21,6 +21,11 @@ function greet(name: string) : string {
 
 console.log(greet('Japhet'));
 
+let names = ['Alice', 'Bob', 'Charlie'];
+
+names.forEach((s) => {
+    console.log(s.toUpperCase());
+})
 
 let obj: any = { x: 0};
 obj.foo = 100;
