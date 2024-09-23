@@ -1,3 +1,4 @@
+var message = "Hello, World!";
 var UserAccount = /** @class */ (function () {
     function UserAccount(name, id) {
         this.name = name;
@@ -5,6 +6,10 @@ var UserAccount = /** @class */ (function () {
     }
     return UserAccount;
 }());
+function greet(name) {
+    return 'Hello ' + name.toUpperCase() + '!';
+}
+console.log(greet('Japhet'));
 var obj = { x: 0 };
 obj.foo = 100;
 obj.bar = "hello";

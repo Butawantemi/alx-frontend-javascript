@@ -16,7 +16,7 @@ class UserAccount {
 }
 
 function greet(name: string) : string {
-    return `Hello, ${name}`;
+    return 'Hello ' + name.toUpperCase() + '!';
 }
 
 console.log(greet('Japhet'));
