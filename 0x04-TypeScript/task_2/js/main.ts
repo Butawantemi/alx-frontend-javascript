@@ -59,5 +59,15 @@ const executeWork = (employee: Director | Teacher): string => {
     }
 }
 
+type Subjects = 'Math' | 'History';
+
+const teacherClass = (todayClass: Subjects): string => {
+    if (todayClass === 'Math') {
+        return 'Teaching Math';
+    } else {
+        return 'Teaching History';
+    }
+}
+
 
 
