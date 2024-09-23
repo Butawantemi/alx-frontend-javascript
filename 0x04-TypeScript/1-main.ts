@@ -1,3 +1,5 @@
+let message: string = "Hello, World!";
+
 interface User {
     name: string;
     id: number;
@@ -12,6 +14,13 @@ class UserAccount {
         this.id = id;
     }
 }
+
+function greet(name: string) : string {
+    return `Hello, ${name}`;
+}
+
+console.log(greet('Japhet'));
+
 
 let obj: any = { x: 0};
 obj.foo = 100;
