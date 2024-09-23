@@ -6,3 +6,7 @@ interface teacher {
     lacation: string;
     [propName: string]: any;
 }
+
+interface Directies extends teacher {
+    numberOfReports: number;
+}
