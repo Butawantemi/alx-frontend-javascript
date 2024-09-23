@@ -44,7 +44,4 @@ interface StudentConstructor {
     }
   };
 
-export { 
-    printTeacher, 
-    StudentClass 
-};
+export { printTeacher, StudentClass };
