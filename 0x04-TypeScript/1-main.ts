@@ -13,6 +13,6 @@ class UserAccount {
     }
 }
 
-const user = new UserAccount("Japhet", 3);
+const user: User = new UserAccount("Japhet", 3);
 console.log(user);
 
