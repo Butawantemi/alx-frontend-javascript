@@ -14,5 +14,5 @@ class UserAccount {
 }
 
 const user: User = new UserAccount("Japhet", 3);
-console.log(user);
+console.log(user.name);
 
