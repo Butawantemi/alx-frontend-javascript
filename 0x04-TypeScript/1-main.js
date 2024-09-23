@@ -10,6 +10,10 @@ function greet(name) {
     return 'Hello ' + name.toUpperCase() + '!';
 }
 console.log(greet('Japhet'));
+var names = ['Alice', 'Bob', 'Charlie'];
+names.forEach(function (s) {
+    console.log(s.toUpperCase());
+});
 var obj = { x: 0 };
 obj.foo = 100;
 obj.bar = "hello";
