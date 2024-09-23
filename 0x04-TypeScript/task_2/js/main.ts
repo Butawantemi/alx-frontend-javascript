@@ -10,3 +10,31 @@ interface TeacherInterface {
     workTeacherTasks(): string;
 }
 
+class Director implements DirectorInterface {
+    workFromHome(): string {
+        return 'Working from home';
+    }
+
+    getCoffeeBreak(): string {
+        return 'Getting a coffee break';
+    }
+
+    workDirectorTasks(): string {
+        return 'Getting to director tasks';
+    }
+}
+
+class Teacher implements TeacherInterface {
+    workFromHome(): string {
+        return 'Connot work from home';
+    }
+
+    getCoffeeBreak(): string {
+        return 'Cannot have a coffee break';
+    }
+
+    workTeacherTasks(): string {
+        return 'Getting to work';
+    }
+}
+
