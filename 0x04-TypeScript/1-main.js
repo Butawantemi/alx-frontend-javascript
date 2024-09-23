@@ -34,14 +34,9 @@ function welcomePeople(x) {
     }
 }
 function doSomething(value) {
-    if (value === null) {
-        // do nothing
-    }
-    else {
-        console.log('Value is:  ' + value);
-    }
+    console.log(value);
 }
-console.log(doSomething(' '));
+console.log(doSomething());
 welcomePeople(['Alice', 'Bob', 'Charlie']);
 welcomePeople('Japhet');
 printCoord({ x: 3 });

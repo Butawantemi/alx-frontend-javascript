@@ -50,7 +50,7 @@ function welcomePeople(x: string[] | string) {
 }
 
 function doSomething(value?: number | null) {
-    console.log('You passed: ' + value!.toFixed());
+    console.log(value!);
 }
 
 console.log(doSomething());
