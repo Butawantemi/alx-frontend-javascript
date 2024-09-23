@@ -35,9 +35,22 @@ obj.array = [1, 2, 3];
 console.log(obj);
 
 function printCoord(pt: { x: number; y?: number}) {
+    if (pt.y !== undefined) {
+        console.log('The coordinate is: x = ' + pt.x + ', y =' + pt.y);
+    }
     console.log('The coordinate is: x = ' + pt.x + ', y =' + pt.y);
 }
 
+function welcomePeople(x: string[] | string) {
+    if (Array.isArray(x)) {
+        console.log('Hello, ' + x.join(' and '));
+    } else {
+        console.log('Welcome lone traveler  ' + x);
+    }
+}
+
+welcomePeople(['Alice', 'Bob', 'Charlie']);
+welcomePeople('Japhet');
 printCoord({x: 3});
 printCoord({x: 3, y: 7});
 

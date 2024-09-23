@@ -19,5 +19,13 @@ obj.foo = 100;
 obj.bar = "hello";
 obj.array = [1, 2, 3];
 console.log(obj);
+function printCoord(pt) {
+    if (pt.y !== undefined) {
+        console.log('The coordinate is: x = ' + pt.x + ', y =' + pt.y);
+    }
+    console.log('The coordinate is: x = ' + pt.x + ', y =' + pt.y);
+}
+printCoord({ x: 3 });
+printCoord({ x: 3, y: 7 });
 var user = new UserAccount("Japhet", 3);
 console.log(user.name);
