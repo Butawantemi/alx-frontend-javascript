@@ -49,15 +49,11 @@ function welcomePeople(x: string[] | string) {
     }
 }
 
-function doSomething(value: string | null) {
-    if (value === null) {
-        // do nothing
-    } else {
-        console.log('Value is:  ' + value);
-    }
+function doSomething(value?: number | null) {
+    console.log('You passed: ' + value!.toFixed());
 }
 
-console.log(doSomething(' '));
+console.log(doSomething());
 
 welcomePeople(['Alice', 'Bob', 'Charlie']);
 welcomePeople('Japhet');

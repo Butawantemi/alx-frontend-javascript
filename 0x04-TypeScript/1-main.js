@@ -41,7 +41,7 @@ function doSomething(value) {
         console.log('Value is:  ' + value);
     }
 }
-console.log(doSomething('Japhet'));
+console.log(doSomething(' '));
 welcomePeople(['Alice', 'Bob', 'Charlie']);
 welcomePeople('Japhet');
 printCoord({ x: 3 });
