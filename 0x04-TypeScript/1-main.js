@@ -5,5 +5,10 @@ var UserAccount = /** @class */ (function () {
     }
     return UserAccount;
 }());
+var obj = { x: 0 };
+obj.foo = 100;
+obj.bar = "hello";
+obj.array = [1, 2, 3];
+console.log(obj);
 var user = new UserAccount("Japhet", 3);
 console.log(user.name);
