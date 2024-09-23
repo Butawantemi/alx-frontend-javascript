@@ -27,4 +27,10 @@ class studentClass {
     workOnHoneWork(){
         return 'Currently working';
     }
+
+    displayName() {
+        return this.firstName;
+    }
+
+    
 }
