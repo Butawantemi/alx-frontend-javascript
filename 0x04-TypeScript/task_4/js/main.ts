@@ -8,3 +8,17 @@ export const cTeacher: Subjects.Teacher = {
     lastName: 'Paul',
     experienceTeachingC: 10
 }
+
+console.log('C++');
+cpp.setTeacher = cTeacher;
+console.log(cpp.getRequirement());
+console.log(cpp.getAvailableTeacher());
+
+console.log('Java');
+java.setTeacher = cTeacher;
+console.log(java.getRequirements());
+console.log(java.getAvailableTeacher());
+
+console.log('React');
+console.log(react.getRequirement());
+console.log(react.getAvailableTeacher());
