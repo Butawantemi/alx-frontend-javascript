@@ -1,4 +1,4 @@
-import { rowId, rowElement } from './interfaces.ts';
+import { rowElement, rowId } from './interface';
 import * as CRUD from './crud.js';
 
 const row: rowElement = {
