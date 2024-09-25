@@ -71,5 +71,6 @@ printCoord({x: 3, y: 7});
 
 // Declare a variable of type 'User' and assign a new object of type 'UserAccount' to it.
 const user: User = new UserAccount("Japhet", 3);
+// Output the name of the user
 console.log(user.name);
 
