@@ -33,13 +33,15 @@ names.forEach((s) => {
     console.log(s.toUpperCase());
 })
 
+// Declare an object with properties and assign values to the properties
 let obj: any = { x: 0};
 obj.foo = 100;
 obj.bar = "hello";
 obj.array = [1, 2, 3];
-
+// Output the object
 console.log(obj);
 
+// Function that prints the coordinates of a point
 function printCoord(pt: { x: number; y?: number}) {
     if (pt.y !== undefined) {
         console.log('The coordinate is: x = ' + pt.x + ', y =' + pt.y);
@@ -55,6 +57,7 @@ function welcomePeople(x: string[] | string) {
     }
 }
 
+// Function that takes an optinal parameter
 function doSomething(value?: number | null) {
     console.log(value!);
 }
