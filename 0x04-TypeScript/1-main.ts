@@ -48,7 +48,7 @@ function printCoord(pt: { x: number; y?: number}) {
     }
     console.log('The coordinate is: x = ' + pt.x + ', y =' + pt.y);
 }
-
+// Function that welcomes people
 function welcomePeople(x: string[] | string) {
     if (Array.isArray(x)) {
         console.log('Hello, ' + x.join(' and '));
@@ -62,13 +62,14 @@ function doSomething(value?: number | null) {
     console.log(value!);
 }
 
+// Output 
 console.log(doSomething());
-
 welcomePeople(['Alice', 'Bob', 'Charlie']);
 welcomePeople('Japhet');
 printCoord({x: 3});
 printCoord({x: 3, y: 7});
 
+// Declare a variable of type 'User' and assign a new object of type 'UserAccount' to it.
 const user: User = new UserAccount("Japhet", 3);
 console.log(user.name);
 
