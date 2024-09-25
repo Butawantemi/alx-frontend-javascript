@@ -1,28 +1,34 @@
+// Declare a message variable of type string.
 let message: string = "Hello, World!";
 
+// Interface for object of type 'User'
 interface User {
     name: string;
     id: number;
 }
 
+// Class for object of type 'UserAccount'
 class UserAccount {
     name: string;
     id: number;
-
+    // Constructor for the class 'UserAccount'
     constructor(name: string, id: number) {
         this.name = name;
         this.id = id;
     }
 }
 
+// Function that greets a user
 function greet(name: string) : string {
     return 'Hello ' + name.toUpperCase() + '!';
 }
 
+// Output the message
 console.log(greet('Japhet'));
 
+// Declare an array of names
 let names = ['Alice', 'Bob', 'Charlie'];
-
+// Loop through the array of names and output the names in uppercase 
 names.forEach((s) => {
     console.log(s.toUpperCase());
 })
